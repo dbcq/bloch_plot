@@ -18,7 +18,7 @@ ax = basic_bloch_sphere(ax, show_equator=True)
 plot_coords(ax, to_bloch_coords(statevector_1), colors=['k'])
 ax.view_init(elev=10., azim=-45, )
 
-plt.savefig('bloch_sphere.png')
+plt.savefig('bloch_sphere.png', bbox_inches='tight')
 
 # Clear figure
 plt.clf()
