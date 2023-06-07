@@ -4,8 +4,10 @@ Simple package for plotting and animations with the Bloch sphere.
 
 ## Installation
 
+`cd` into `bloch_plot` directory and run:
+
 ```
-pip install bloch_plot
+pip install -e .
 ```
 
 ## Usage
