@@ -21,7 +21,7 @@ ax.view_init(
     azim=-45,
 )
 
-plt.savefig("bloch_sphere.png", bbox_inches="tight")
+plt.savefig("imgs/bloch_sphere.png", bbox_inches="tight")
 
 # Clear figure
 plt.clf()
@@ -69,6 +69,6 @@ ani = animate_coords(
     loop=True,
 )
 
-f = "animation.gif"
+f = "imgs/animation.gif"
 writerGif = PillowWriter(fps=20)
 ani.save(f, writer=writerGif)

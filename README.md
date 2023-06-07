@@ -29,4 +29,4 @@ plot_coords(ax, coords, colors=['r', 'b'])
 plt.show()
 ```
 
-See `docs/example_bloch_visualisation.py` for an animated example.
+See `examples/example_bloch_visualisation.py` for an animated example.
