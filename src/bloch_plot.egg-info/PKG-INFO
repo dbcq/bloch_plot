@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bloch-plot
+Version: 0.0.1
+Summary: A small package for plotting on the Bloch sphere
+Author-email: Douglas <douglas.brown@cambridgequantum.com>
+Project-URL: Homepage, https://github.com/dbcq/bloch_plot
+Project-URL: Bug Tracker, https://github.com/dbcq/bloch_plot/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# bloch_plot
+
+Simple package for plotting and animations with the Bloch sphere.
+
+## Installation
+
+```
+pip install bloch_plot
+```

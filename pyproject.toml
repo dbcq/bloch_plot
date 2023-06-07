@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloch_plot"
+version = "0.0.1"
+authors = [
+  { name="Douglas", email="douglas.brown@cambridgequantum.com" },
+]
+description = "A small package for plotting on the Bloch sphere"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dbcq/bloch_plot"
+"Bug Tracker" = "https://github.com/dbcq/bloch_plot/issues"
