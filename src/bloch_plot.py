@@ -89,7 +89,7 @@ def basic_bloch_sphere(ax, show_equator=False):
 
 
 def plot_coords(ax, coords, colors=None, alpha=0.5):
-    """Plots all coordinates in coords on Bloch sphere
+    """Plots all N sets of coordinates in `coords` on Bloch sphere
     
     Args:
         ax (matplotlib.axes): axes to plot on (must have 3D projection)
@@ -115,7 +115,7 @@ def plot_coords(ax, coords, colors=None, alpha=0.5):
 
 
 def animate_coords(fig, ax, coords, show_equator=False, colors=None, alpha=0.5, label_steps=True, show_initial=False, loop=True):
-    """Animates coordinates on Bloch sphere
+    """Animates N sets of coordinates on Bloch sphere
 
     Args:
         fig (matplotlib.figure): figure to plot on
